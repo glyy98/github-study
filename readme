@@ -1,0 +1,11 @@
+1、本地新建文件夹，使用vscode打开
+2、编辑文本代码
+3、打开终端，ctrl+`，初始化一个新仓库：git init
+4、设置添加远程仓库地址
+git remote add 【自定义仓库临时名】 【仓库地址】
+4、将文本提交到暂存区
+git add .
+5、提交更改
+git commit -m '' 
+6、推上去
+git push -u 仓库临时名 main分支
