@@ -26,3 +26,8 @@ git config --global https.proxy http://127.0.0.1:33210
 git config --global --unset http.proxy
 git config --global --unset https.proxy
 
+#设置git alias别名 给组合命令设置快捷命令
+
+git config --global alias.pushall '!git add . && git commit -m "update" && git push'
+【pushall】是可以自定义的
+然后直接  git quick 
