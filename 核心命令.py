@@ -31,3 +31,8 @@ git config --global --unset https.proxy
 git config --global alias.pushall '!git add . && git commit -m "update" && git push'
 【pushall】是可以自定义的
 然后直接  git quick 
+
+#如果你未提交，想当前文件恢复到上次提交的状态
+git checkout -- (恢复所有)
+git checkout -- .\tests\test_filter.py
+
